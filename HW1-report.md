@@ -52,29 +52,42 @@ https://colab.research.google.com/drive/1SyINxVlkaMwpmRLP8JeLX_SxYhyJIkwj?usp=sh
 ![Bill Length](bill_length.png)
 
 *Describe what the figure is showing.*
+
 This graph compares bill dimensions in a scatter plot of the penguins.
+
 
 *Insert the second penguin chart here*
 ![Weight vs Sex](weightvsex.png)
 
 *Describe what the figure is showing.*
+
 This graph compares mass of different species of penguins subdivided by gender.
+
 
 *What happened when you removed the outer parentheses from the code? Why?*
 
 The plots will no longer be displayed in an interactive environment because they will not be treated as multi-line statements.
 
+
 ## Observable and Vega-Lite
 
 *What happens when you replace `markCircle()` with `markSquare()`?*
 
+Changes the scatter plot icons from circles to squares
+
 *What happens when you replace `markCircle()` with `markPoint()`?*
 
+Changes the scatter plot icons from circles to rings
+
 *What change do you need to make to swap the x and y axes on the scatterplot?*
+
+simply swap the field designators .x() and .y() respectively.
 
 *Insert the bar chart image here*
 
 *Why do you think this chart is the result of this code change?*
+
+When commenting out ' vl.y().fieldN("Origin") ' you are no longer filtering the cars by their origin country, so it simply shows the largest result from the field.
 
 ## References
 
@@ -82,3 +95,4 @@ The plots will no longer be displayed in an interactive environment because they
 
 * Tableau data, <https://olympics.com/en/paris-2024/medals?utm_campaign=dp_google>
 * Snowboarding Image, <https://www.nytimes.com/interactive/2022/02/11/sports/olympics/ayumu-hirano-shaun-white-snowboarding-halfpipe.html/>
+* Observable exercise, <https://observablehq.com/@observablehq/vega-lite>
