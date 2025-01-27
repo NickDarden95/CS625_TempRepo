@@ -43,6 +43,7 @@ git reset
 ## Google Colab
 
 *What is the URL of your Google Colab notebook?*
+https://colab.research.google.com/drive/1SyINxVlkaMwpmRLP8JeLX_SxYhyJIkwj?usp=sharing
 
 ## Python/Seaborn
 
@@ -55,6 +56,7 @@ git reset
 *Describe what the figure is showing.*
 
 *What happened when you removed the outer parentheses from the code? Why?*
+The plots will no longer be displayed in an interactive environment because they will not be treated as multi-line statements.
 
 ## Observable and Vega-Lite
 
