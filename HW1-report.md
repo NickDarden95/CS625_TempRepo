@@ -39,6 +39,7 @@ git reset
 ## Tableau
 
 *Insert the image of your horizontal bar chart here. Reminder, this should show countries that won the least number of medals only (excluding ZERO) in Paris2024 Summer Olynpics by continent (one country from each continent is ok).*
+![Min Medals Per Continent](Min%20Medals%20Per%20Continent.png)
 
 ## Google Colab
 
@@ -48,14 +49,19 @@ https://colab.research.google.com/drive/1SyINxVlkaMwpmRLP8JeLX_SxYhyJIkwj?usp=sh
 ## Python/Seaborn
 
 *Insert the first penguin chart here*
+![Bill Length](bill_length.png)
 
 *Describe what the figure is showing.*
+This graph compares bill dimensions in a scatter plot of the penguins.
 
 *Insert the second penguin chart here*
+![Weight vs Sex](weightvsex.png)
 
 *Describe what the figure is showing.*
+This graph compares mass of different species of penguins subdivided by gender.
 
 *What happened when you removed the outer parentheses from the code? Why?*
+
 The plots will no longer be displayed in an interactive environment because they will not be treated as multi-line statements.
 
 ## Observable and Vega-Lite
