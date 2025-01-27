@@ -84,6 +84,7 @@ Changes the scatter plot icons from circles to rings
 simply swap the field designators .x() and .y() respectively.
 
 *Insert the bar chart image here*
+![Count of Records](untitled.png)
 
 *Why do you think this chart is the result of this code change?*
 
